@@ -1,0 +1,145 @@
+body {
+  background-color: #eee;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: medium;
+}
+
+header {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: red;
+}
+
+.logo {
+  position: relative;
+  display: inline-block;
+  top: 15px;
+  left: 10px;
+}
+
+#nav-bar {
+  position: relative;
+  display: inline-block;
+  left: 50%;
+}
+
+header li,
+footer li {
+  display: inline;
+  margin-right: 20px;
+  list-style: none;
+}
+a:hover {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  position: absolute;
+  top: 10%;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  margin: 10px;
+  z-index: -1;
+}
+
+input {
+  display: block;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 4px;
+  margin-right: 20px;
+  margin: auto;
+}
+
+button {
+  display: block;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 4px;
+  margin: auto;
+  margin-top: 15px;
+  background: #f1c40f;
+  font-weight: bolder;
+}
+
+#features {
+  margin: 10px;
+}
+
+.icon {
+  display: inline-block;
+  width: 30%;
+  text-align: right;
+  vertical-align: center;
+  margin-bottom: 10px;
+  margin-right: 20px;
+}
+
+.icon1 {
+  margin-bottom: 10px;
+}
+
+.icon2 {
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+.text {
+  display: inline-block;
+  width: 60%;
+  text-align: left;
+  margin-left: 25px;
+  vertical-align: top;
+  padding: 0;
+}
+.text h2 {
+  margin-bottom: 0;
+}
+.text p {
+  margin: 0;
+}
+#how-it-works {
+  margin: 20px;
+}
+.section3 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+.product ol {
+  list-style: none;
+  text-align: center;
+}
+.product {
+  width: 20%;
+  height: 20%;
+  margin: 15px;
+  border: 2px solid black;
+}
+.select {
+  margin-bottom: 5px;
+}
+footer {
+  margin-top: 30px;
+  background-color: #ddd;
+  padding: 10px;
+}
+@media (max-width: 550px) {
+  .product {
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+}
